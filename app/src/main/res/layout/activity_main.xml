@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Verificando áudio..."
+            android:textSize="12sp"
+            android:gravity="center"
+            android:paddingBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnSpeak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Falar"
+            android:textSize="11sp" />
+
+        <Button
+            android:id="@+id/btnBluetooth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Conectar Bluetooth"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+
+</androidx.wear.widget.BoxInsetLayout>
